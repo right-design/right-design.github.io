@@ -1,0 +1,158 @@
+/*!
+ * Minimal Mistakes Jekyll Theme 4.19.0 by Michael Rose
+ * Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+ * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE)
+*/
+
+/* Variables */
+@import "minimal-mistakes/variables";
+
+/* Mixins and functions */
+@import "minimal-mistakes/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
+@import "minimal-mistakes/vendor/susy/susy";
+@import "minimal-mistakes/mixins";
+
+/* Core CSS */
+@import "minimal-mistakes/reset";
+@import "minimal-mistakes/base";
+@import "minimal-mistakes/forms";
+@import "minimal-mistakes/tables";
+@import "minimal-mistakes/animations";
+
+/* Components */
+@import "minimal-mistakes/buttons";
+@import "minimal-mistakes/notices";
+@import "minimal-mistakes/masthead";
+@import "minimal-mistakes/navigation";
+@import "minimal-mistakes/footer";
+@import "minimal-mistakes/search";
+@import "minimal-mistakes/syntax";
+
+/* Utility classes */
+@import "minimal-mistakes/utilities";
+
+/* Layout specific */
+@import "minimal-mistakes/page";
+@import "minimal-mistakes/archive";
+@import "minimal-mistakes/sidebar";
+@import "minimal-mistakes/print";
+
+html *
+{
+   font-family: Helvetica, "Helvetica Neue" !important;
+}
+
+body {
+    background-color: rgba(255, 252, 249, 255);
+}
+
+h1 {
+    margin-top: .6em !important;
+    margin-bottom: 1.4em !important;
+}
+
+.masthead {
+    color: #ffffff;
+    background-color: #111111;
+    border-bottom: 0px;
+}
+
+.masthead a:link {
+    color: #ffffff;
+    background-color: #111111;
+}
+
+.masthead a:visited {
+    color: #ffffff;
+    background-color: #111111;
+}
+
+.masthead a:hover {
+    color: #ffffff;
+    background-color: #111111;
+}
+
+.masthead a:visited {
+    color: #ffffff;
+    background-color: #111111;
+}
+
+#site-nav  {
+    color: #ffffff;
+    background-color: #111111;
+}
+
+a {
+    color: #000000;
+    text-decoration: none !important;
+}
+
+a:visited {
+    color: #000000;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #d54444e6;
+}
+
+a.contactemail:link {
+    color: #000000;
+    text-decoration: none !important;
+}
+
+a.contactemail:active {
+    color: #000000;
+    text-decoration: none !important;
+}
+
+a.contactemail:hover {
+    color: #000000;
+    text-decoration: none !important;
+    border-bottom: 0.15em solid #d54444e6;
+}
+a.contactemail:active {
+    color: #000000;
+    text-decoration: none !important;
+}
+
+nav.breadcrumbs a:link {
+    color: #000000;
+    text-decoration: none !important;
+}
+nav.breadcrumbs a:visited {
+    color: #000000;
+    text-decoration: none !important;
+}
+nav.breadcrumbs a:hover {
+    color: #000000;
+    text-decoration: none !important;
+    border-bottom: 0.15em solid #d54444e6;
+}
+nav.breadcrumbs a:active {
+    color: #000000;
+    text-decoration: none !important;
+}
+
+.breadcrumbs {
+    white-space: nowrap;
+    font-size: 1.4em !important;
+}
+
+.breadcrumbs ol {
+    width: calc(100% - 280px);
+    white-space: nowrap;
+}
+
+.page .page__inner-wrap {
+    margin-top: 0px;
+}
+
+ul.social-icons a {
+    color: #FFFFFF;
+    &:hover {
+        color: #d54444e6;
+    }
+}
