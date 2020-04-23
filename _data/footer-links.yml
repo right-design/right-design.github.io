@@ -1,16 +1,16 @@
 links:
   - label: "GitHub"
     icon: "fab fa-fw fa-github"
-    url: /outbound/github
+    url: /github/
   - label: "Twitter"
     icon: "fab fa-fw fa-twitter-square"
-    url: /outbound/twitter
+    url: /twitter/
   - label: "LinkedIn"
     icon: "fab fa-fw fa-linkedin"
-    url: /outbound/linkedin
+    url: /linkedin/
   - label: "Calendly"
     icon: "fas fa-fw fa-calendar"
-    url: /outbound/calendar
+    url: /calendar/
   - label: "Email"
     icon: "fas fa-fw fa-paper-plane"
     url: mailto:info@rightdesign.io
